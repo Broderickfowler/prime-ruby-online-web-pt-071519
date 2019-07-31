@@ -5,6 +5,6 @@ def prime(n)
   if n%2 !=0 && n!=2
     true
   else
-    puts "#{n} is not prime."
+    false
   end
 end
