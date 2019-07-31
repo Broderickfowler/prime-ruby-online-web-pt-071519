@@ -10,6 +10,6 @@ def prime?(n)
   if is_prime
      true
   else
-     "#{n} is not prime."
+    false
   end
 end
