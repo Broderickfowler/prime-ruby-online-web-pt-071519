@@ -7,4 +7,3 @@ def prime(n)
   else
     puts "false"
   end
-end
