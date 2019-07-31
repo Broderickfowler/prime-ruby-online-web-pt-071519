@@ -10,5 +10,6 @@ def prime?(n)
      true
   else
     false
+    puts "Be sure to account for negative numbers"
   end
 end
