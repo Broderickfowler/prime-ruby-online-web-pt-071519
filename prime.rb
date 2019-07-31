@@ -8,7 +8,7 @@ def prime?(n)
     end
   end
   if is_prime
-     "#{n} is prime!"
+     true
   else
      "#{n} is not prime."
   end
