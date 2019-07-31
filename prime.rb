@@ -8,8 +8,8 @@ def prime?(n)
     end
   end
   if is_prime
-    puts "#{n} is prime!"
+     "#{n} is prime!"
   else
-    puts "#{n} is not prime."
+     "#{n} is not prime."
   end
 end
