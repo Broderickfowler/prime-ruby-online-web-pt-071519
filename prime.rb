@@ -1,14 +1,10 @@
 # Add  code here!
-def prime?(n)
-  is_prime = true
-  for i in 2..n-1
-    if n % i == n-1
-      is_prime = false
-    end
-  end
-  if is_prime
-     true
+def prime(n)
+  unless n.is_a? Integer
+  puts "That's not an integer."
+  if n%2 !=0 && n!=2
+    puts "#{n} is prime!"
   else
-    false
+    puts "#{n} is not prime."
   end
 end
